@@ -15,12 +15,14 @@
        #{msg.mainHeading}
      </ui:insert>
     </div>
+    <div class="buttons">
+        <ui:insert name="buttons">
+            <ui:include src="/views/main/buttons.xhtml" />
+        </ui:insert>
+        
+            </div>
 	<div class="menuAndContent">
-	 <div class="menu">
-	   <ui:insert name="menu">
-         <ui:include src="/views/main/menu.xhtml" />
-       </ui:insert>
-      </div>
+	
 	  <div class="content">
 	     <ui:insert name="content" />
        </div>
