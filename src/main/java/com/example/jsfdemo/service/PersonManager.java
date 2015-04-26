@@ -14,13 +14,14 @@ public class PersonManager {
 	public void addPerson(Person person) {
 		Person newPerson = new Person();
 
-		newPerson.setFirstName(person.getFirstName());
-		newPerson.setZipCode(person.getZipCode());
+		newPerson.setName(person.getName());
+		newPerson.setSurname(person.getSurname());
 		newPerson.setPin(person.getPin());
 		newPerson.setDateOfBirth(person.getDateOfBirth());
-		newPerson.setMarried(person.isMarried());
+		newPerson.setAddress(person.getAddress());
+		newPerson.setPhone(person.getPhone());
 		newPerson.setWeight(person.getWeight());
-		newPerson.setNumOfChildren(person.getNumOfChildren());
+		newPerson.setHeigth(person.getHeigth());
 
 		db.add(newPerson);
 	}

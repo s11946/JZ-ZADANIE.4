@@ -8,29 +8,29 @@
 		<h:form id="personform">
 			<h:panelGrid columns="2">
 
-				<h:outputText value="#{msg.personFirstNameLabel}" />
-				<h:inputText id="name" value="#{personBean.person.firstName}" />
+				<h:outputText value="#{msg.personNameLabel}" />
+				<h:inputText id="name"  />
                                 
                                 <h:outputText value="#{msg.personLastNameLabel}" />
-				<h:inputText id="surname" value="#{personBean.person.firstName}" />
+				<h:inputText id="surname"  />
                                 
                                 <h:outputText value="#{msg.personPinLabel}" />
-				<h:inputText id="pesel" value="#{personBean.person.firstName}" />
+				<h:inputText id="pin"  />
                                 
                                 <h:outputText value="#{msg.personDobLabel}" />
-				<h:inputText id="dob" value="#{personBean.person.firstName}" />
+				<h:inputText id="dateOfBirth"  />
                                 
                                 <h:outputText value="#{msg.personAddressLabel}" />
-				<h:inputText id="address" value="#{personBean.person.firstName}" />
+				<h:inputText id="address"  />
                                 
                                 <h:outputText value="#{msg.personWeightLabel}" />
-				<h:inputText id="weight" value="#{personBean.person.firstName}" />
+				<h:inputText id="weight" />
                                 
                                 <h:outputText value="#{msg.personHeightLabel}" />
-				<h:inputText id="height" value="#{personBean.person.firstName}" />
+				<h:inputText id="height"/>
 
-				<h:outputText value="#{msg.personPinLabel}" />
-				<h:inputText id="yob" value="#{personBean.person.pin}" />
+				<h:outputText value="#{msg.personPhoneLabel}" />
+				<h:inputText id="phone" />
 			</h:panelGrid>
 
 			<h:commandButton value="#{msg.personFormOKButton}"

@@ -13,13 +13,28 @@
       <f:facet name="header">#{msg.personAllLabel}</f:facet>
       
       <h:column>
-        <f:facet name="header">#{msg.personFirstNameLabel}</f:facet>
-        #{item.firstName}
+        <f:facet name="header">#{msg.personNameLabel}</f:facet>
+        #{item.name}
+      </h:column>
+      
+      <h:column>
+        <f:facet name="header">#{msg.personLastNameLabel}</f:facet>
+        #{item.surname}
       </h:column>
       
       <h:column>
         <f:facet name="header">#{msg.personPinLabel}</f:facet>
         #{item.pin}
+      </h:column>
+      
+      <h:column>
+        <f:facet name="header">#{msg.personDobLabel}</f:facet>
+        #{item.dob}
+      </h:column>
+      
+      <h:column>
+        <f:facet name="header">#{msg.personPhoneLabel}</f:facet>
+        #{item.phone}
       </h:column>
       
       <h:column>
